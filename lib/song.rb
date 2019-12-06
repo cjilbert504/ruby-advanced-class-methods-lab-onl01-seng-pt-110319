@@ -39,6 +39,7 @@ class Song
     end
 
     def self.alphabetical()
-      @@all.sort_by {|x| x.name}
-    end
+    #returns all the songs instances in ascending (a-z) alphabetical order.
+    @@all.sort_by{|x| x.name}
+  end
 end
